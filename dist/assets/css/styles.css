@@ -1,0 +1,77 @@
+body {
+  font-family: 'Baskervville', serif;
+  font-size: large;
+}
+
+#content {
+  width: 60vw;
+  margin: auto;
+}
+
+#dish{
+  max-width: 80%;
+  border-radius: 3px;
+}
+
+img {
+  max-width: 100%;
+  margin: 1em auto;
+}
+
+.img-container {
+  text-align: center;
+}
+.menu{
+  text-align: center;
+  max-width: 75%;
+  margin: 2em auto;
+}
+#map{
+  border-radius: 3px;
+}
+.text{
+  text-align: center;
+  color: #545454;
+}
+
+hr{
+  margin: 3em 0 1em 0;
+}
+
+hr.fancy{
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+
+hr.fancy:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: #e7e7e7;
+}
+
+hr.another-fancy {
+  overflow: visible; /* For IE */
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr.another-fancy:before { /* Not really supposed to work, but does */
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
